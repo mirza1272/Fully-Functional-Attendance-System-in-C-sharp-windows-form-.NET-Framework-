@@ -1,0 +1,25 @@
+CREATE TABLE Users (
+    User_id INT IDENTITY(1,1) PRIMARY KEY,
+    first_name NVARCHAR(50),
+    last_name NVARCHAR(50),
+    email NVARCHAR(100);
+    username NVARCHAR(50) NOT NULL UNIQUE,
+    password NVARCHAR(50) NOT NULL
+);
+CREATE TABLE Students (
+    Student_id INT IDENTITY(1,1) PRIMARY KEY,
+    Gender NVARCHAR(10),
+    Contact NVARCHAR(15);
+    Name NVARCHAR(100)
+);
+CREATE TABLE Attendance (
+    Att_id INT IDENTITY(1,1) PRIMARY KEY,
+    student_id INT,
+    date DATE,
+    status NVARCHAR(10),
+    FOREIGN KEY(student_id) REFERENCES Students(student_id)
+);
+ALTER TABLE Users
+ADD 
+ALTER TABLE Students
+ADD 
