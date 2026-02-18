@@ -1,1 +1,1 @@
-Sharks are the only fish that can blink with both eyes.
+The hashtag symbol used to be called the pound sign.
