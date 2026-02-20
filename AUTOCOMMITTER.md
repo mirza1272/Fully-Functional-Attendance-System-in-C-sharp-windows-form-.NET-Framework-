@@ -1,1 +1,1 @@
-Otters have a favorite rock they use to break open food.
+Hot water freezes faster than cold water — it’s called the Mpemba effect.
